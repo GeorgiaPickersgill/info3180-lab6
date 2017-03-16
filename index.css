@@ -5,3 +5,7 @@ div{
   border: 25px solid beige;
   background-repeat: no-repeat;
   background-attachment: fixed;}
+
+ul,input,button{
+position: relative;
+}
