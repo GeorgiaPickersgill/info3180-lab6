@@ -1,8 +1,13 @@
 <!DOCTYPE html>
+<html>
 <head>
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"> </script>
+</head>
+        
+<body>
 <script>
+
 var app = angular.module("myShoppingList", []); 
 app.controller("myCtrl", function($scope) {
 $scope.products = ["Milk", "Bread", "Cheese"];
@@ -22,8 +27,6 @@ $scope.removeItem = function (x) {
 });
 </script>
 
-</head>
-
 <div ng-app="myShoppingList" ng-controller="myCtrl">
     <ul>
         <li ng-repeat="x in products">{{x}}</li>
@@ -32,5 +35,5 @@ $scope.removeItem = function (x) {
     <input ng-model="addMe">
     <button ng-click="addItem()">Add</button>
 </div>
-
-<html></html>
+</body>
+</html>
