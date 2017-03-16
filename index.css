@@ -2,4 +2,7 @@ div{
   background-image: url("list_bg.jpg");
   width: 200px;
   padding: 25px;
-  border: 25px solid beige;}
+  border: 25px solid beige;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;}
