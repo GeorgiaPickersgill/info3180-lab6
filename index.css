@@ -4,6 +4,7 @@ div{
   padding: 25px;
   border: 25px solid beige;
   background-repeat: no-repeat;
+  position:fixed;
   background-attachment: fixed;}
 
 ul,input,button{
